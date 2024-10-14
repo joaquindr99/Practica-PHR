@@ -1,0 +1,9 @@
++==============+===============+===============================+
+| Launch Clock | Capture Clock | Pin                           |
++==============+===============+===============================+
+| sys_clk_pin  | sys_clk_pin   | CIRCUITO/REGout2/auxclk_reg/D |
+| sys_clk_pin  | sys_clk_pin   | CIRCUITO/REGout3/auxclk_reg/D |
+| sys_clk_pin  | sys_clk_pin   | CIRCUITO/REGout1/auxclk_reg/D |
+| sys_clk_pin  | sys_clk_pin   | CIRCUITO/REGout0/auxclk_reg/D |
+| sys_clk_pin  | sys_clk_pin   | CIRCUITO/REGout4/auxclk_reg/D |
++--------------+---------------+-------------------------------+

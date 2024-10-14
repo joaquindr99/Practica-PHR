@@ -1,0 +1,21 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+D:/Downloads/PHR/Entrega proyecto/Intento Físico/GeneralConTecl/GeneralConTecl.srcs/sim_1/new/Pruebas.vhd,1655308410,vhdl,,,,pruebas,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Intento Físico/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd,1655308094,vhdl,,,,reg4bit,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/PmodKYPD_Source/Decoder.vhd,1653322495,vhdl,,,,decoder,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd,1653658050,vhdl,,,,pmodkypd,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/new/deco3a8.vhd,1655198838,vhdl,,,,deco3a8,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/new/to_7seg.vhd,1655141512,vhdl,,,,to_7seg,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd,1655140655,vhdl,,,,general,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/Mux8a1.vhd,1655144173,vhdl,,,,multiplexor,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableD.vhd,1655143632,vhdl,,,,biestabled,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableT.vhd,1655143910,vhdl,,,,biestablet,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/cifrado_descifrado.vhd,1655144162,vhdl,,,,cifrado_descifrado,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador.vhd,1655143706,vhdl,,,,counter,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador0a4.vhd,1655144168,vhdl,,,,contador0a4,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador0a4rep.vhd,1655144154,vhdl,,,,contador0a4rep,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor.vhd,1655143473,vhdl,,,,demultiplexor,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor5inps.vhd,1655144158,vhdl,,,,demultiplexor5inps,,,,,,,,
+D:/Downloads/PHR/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/master.vhd,1655224154,vhdl,,,,master,,,,,,,,

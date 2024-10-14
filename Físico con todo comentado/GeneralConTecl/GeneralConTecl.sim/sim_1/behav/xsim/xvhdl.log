@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Downloads/PHR/Entrega proyecto/Intento Físico/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reg4bit'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Downloads/PHR/Entrega proyecto/Intento Físico/GeneralConTecl/GeneralConTecl.srcs/sim_1/new/Pruebas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Pruebas'

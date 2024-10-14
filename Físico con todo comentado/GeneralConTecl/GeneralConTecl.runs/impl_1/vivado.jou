@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Jun 16 13:43:22 2022
+# Process ID: 13560
+# Current directory: D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.runs/impl_1
+# Command line: vivado.exe -log master.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source master.tcl -notrace
+# Log file: D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.runs/impl_1/master.vdi
+# Journal file: D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.runs/impl_1\vivado.jou
+# Running On: DESKTOP-FEORL2P, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8468 MB
+#-----------------------------------------------------------
+source master.tcl -notrace

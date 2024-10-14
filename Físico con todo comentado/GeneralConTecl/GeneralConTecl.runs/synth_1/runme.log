@@ -1,0 +1,324 @@
+
+*** Running vivado
+    with args -log master.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source master.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source master.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental D:/Downloads/GeneralV2/GeneralV2.srcs/utils_1/imports/synth_1/master.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Downloads/GeneralV2/GeneralV2.srcs/utils_1/imports/synth_1/master.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top master -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13828
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'master' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/master.vhd:49]
+INFO: [Synth 8-3491] module 'PmodKYPD' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:6' bound to instance 'TECLADO' of component 'PmodKYPD' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/master.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'PmodKYPD' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:13]
+INFO: [Synth 8-3491] module 'Decoder' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/PmodKYPD_Source/Decoder.vhd:6' bound to instance 'C0' of component 'Decoder' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'Decoder' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/PmodKYPD_Source/Decoder.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Decoder' (1#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/PmodKYPD_Source/Decoder.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'PmodKYPD' (2#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/PmodKYPD_Source/PmodKYPD.vhd:13]
+INFO: [Synth 8-3491] module 'General' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:37' bound to instance 'CIRCUITO' of component 'General' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/master.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'General' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:49]
+INFO: [Synth 8-3491] module 'demultiplexor' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor.vhd:7' bound to instance 'DEMUX1' of component 'demultiplexor' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:175]
+INFO: [Synth 8-638] synthesizing module 'demultiplexor' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'demultiplexor' (3#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor.vhd:19]
+INFO: [Synth 8-3491] module 'biestableD' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableD.vhd:5' bound to instance 'BIEST1' of component 'biestableD' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'biestableD' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableD.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'biestableD' (4#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableD.vhd:10]
+INFO: [Synth 8-3491] module 'counter' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador.vhd:8' bound to instance 'CONT0' of component 'counter' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'counter' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'counter' (5#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador.vhd:15]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGa' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:199]
+INFO: [Synth 8-638] synthesizing module 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:45]
+WARNING: [Synth 8-614] signal 'auxclk' is read in the process but is not in the sensitivity list [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:52]
+WARNING: [Synth 8-614] signal 'load' is read in the process but is not in the sensitivity list [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:52]
+WARNING: [Synth 8-614] signal 'inp' is read in the process but is not in the sensitivity list [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'reg4bit' (6#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:45]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGb' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:206]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGin0' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:213]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGin1' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:220]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGin2' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:227]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGin3' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:234]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGin4' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:241]
+INFO: [Synth 8-3491] module 'multiplexor' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/Mux8a1.vhd:16' bound to instance 'MUX1' of component 'multiplexor' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:248]
+INFO: [Synth 8-638] synthesizing module 'multiplexor' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/Mux8a1.vhd:29]
+INFO: [Synth 8-226] default block is never used [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/Mux8a1.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'multiplexor' (7#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/Mux8a1.vhd:29]
+INFO: [Synth 8-3491] module 'biestableT' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableT.vhd:4' bound to instance 'BIEST2' of component 'biestableT' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:260]
+INFO: [Synth 8-638] synthesizing module 'biestableT' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableT.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'biestableT' (8#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableT.vhd:10]
+INFO: [Synth 8-3491] module 'contador0a4' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador0a4.vhd:8' bound to instance 'CONT1' of component 'contador0a4' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:265]
+INFO: [Synth 8-638] synthesizing module 'contador0a4' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador0a4.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'contador0a4' (9#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador0a4.vhd:15]
+INFO: [Synth 8-3491] module 'cifrado_descifrado' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/cifrado_descifrado.vhd:16' bound to instance 'CD' of component 'cifrado_descifrado' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:271]
+INFO: [Synth 8-638] synthesizing module 'cifrado_descifrado' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/cifrado_descifrado.vhd:24]
+WARNING: [Synth 8-3936] Found unconnected internal register 'aux_reg' and it is trimmed from '8' to '4' bits. [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/cifrado_descifrado.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'cifrado_descifrado' (10#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/cifrado_descifrado.vhd:24]
+INFO: [Synth 8-3491] module 'biestableT' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableT.vhd:4' bound to instance 'BIEST3' of component 'biestableT' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:278]
+INFO: [Synth 8-3491] module 'biestableD' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableD.vhd:5' bound to instance 'BIEST4' of component 'biestableD' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:283]
+INFO: [Synth 8-3491] module 'biestableD' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableD.vhd:5' bound to instance 'BIEST5' of component 'biestableD' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:291]
+INFO: [Synth 8-3491] module 'biestableD' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/biestableD.vhd:5' bound to instance 'BIEST6' of component 'biestableD' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:298]
+INFO: [Synth 8-3491] module 'contador0a4' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador0a4.vhd:8' bound to instance 'CONT2' of component 'contador0a4' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:305]
+INFO: [Synth 8-3491] module 'demultiplexor5inps' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor5inps.vhd:7' bound to instance 'DEMUX2' of component 'demultiplexor5inps' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:311]
+INFO: [Synth 8-638] synthesizing module 'demultiplexor5inps' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor5inps.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'demultiplexor5inps' (11#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor5inps.vhd:17]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGout0' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:320]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGout1' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:327]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGout2' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:334]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGout3' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:341]
+INFO: [Synth 8-3491] module 'reg4bit' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:37' bound to instance 'REGout4' of component 'reg4bit' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:348]
+INFO: [Synth 8-256] done synthesizing module 'General' (12#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/General.vhd:49]
+INFO: [Synth 8-3491] module 'contador0a4rep' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador0a4rep.vhd:8' bound to instance 'CONT3' of component 'contador0a4rep' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/master.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'contador0a4rep' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador0a4rep.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'contador0a4rep' (13#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/contador0a4rep.vhd:15]
+INFO: [Synth 8-3491] module 'multiplexor' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/Mux8a1.vhd:16' bound to instance 'MUX2' of component 'multiplexor' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/master.vhd:135]
+INFO: [Synth 8-3491] module 'deco3a8' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/new/deco3a8.vhd:4' bound to instance 'DECO' of component 'deco3a8' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/master.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'deco3a8' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/new/deco3a8.vhd:10]
+INFO: [Synth 8-226] default block is never used [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/new/deco3a8.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'deco3a8' (14#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/new/deco3a8.vhd:10]
+INFO: [Synth 8-3491] module 'to_7seg' declared at 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/new/to_7seg.vhd:4' bound to instance 'PANTALLA' of component 'to_7seg' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/master.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'to_7seg' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/new/to_7seg.vhd:9]
+INFO: [Synth 8-226] default block is never used [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/new/to_7seg.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'to_7seg' (15#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/imports/new/to_7seg.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'master' (16#1) [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/master.vhd:49]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1259.383 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/constrs_1/imports/Tutorial/Basys3_Master.xdc]
+Finished Parsing XDC File [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/constrs_1/imports/Tutorial/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/constrs_1/imports/Tutorial/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/master_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/master_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1259.383 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1259.383 ; gain = 0.000
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'q_reg' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:55]
+WARNING: [Synth 8-327] inferring latch for variable 'auxclk_reg' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/reg4bit.vhd:57]
+WARNING: [Synth 8-327] inferring latch for variable 'a_inv_reg' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/cifrado_descifrado.vhd:34]
+WARNING: [Synth 8-327] inferring latch for variable 'O4_reg' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor5inps.vhd:23]
+WARNING: [Synth 8-327] inferring latch for variable 'O3_reg' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor5inps.vhd:23]
+WARNING: [Synth 8-327] inferring latch for variable 'O2_reg' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor5inps.vhd:23]
+WARNING: [Synth 8-327] inferring latch for variable 'O1_reg' [D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.srcs/sources_1/new/demultiplexor5inps.vhd:23]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'CIRCUITO/BIEST2' (biestableT) to 'CIRCUITO/BIEST3'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 4     
++---Registers : 
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 3     
+	   2 Input    4 Bit        Muxes := 9     
+	  11 Input    4 Bit        Muxes := 1     
+	   9 Input    4 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 2     
+	   8 Input    4 Bit        Muxes := 9     
+	   6 Input    4 Bit        Muxes := 6     
+	   4 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 16    
+	   8 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     2|
+|4     |LUT2   |    58|
+|5     |LUT3   |    47|
+|6     |LUT4   |    56|
+|7     |LUT5   |    32|
+|8     |LUT6   |    65|
+|9     |FDCE   |    16|
+|10    |FDPE   |     1|
+|11    |FDRE   |    29|
+|12    |LD     |    32|
+|13    |LDC    |    48|
+|14    |IBUF   |     9|
+|15    |OBUF   |    24|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1259.383 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 1259.383 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1259.383 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1259.383 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 87 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1259.383 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 80 instances were transformed.
+  LD => LDCE: 32 instances
+  LDC => LDCE: 48 instances
+
+Synth Design complete, checksum: 6f2fbdab
+INFO: [Common 17-83] Releasing license: Synthesis
+87 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1259.383 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Downloads/PHR/ProyectoTerminado/GeneralConTecl/GeneralConTecl.runs/synth_1/master.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file master_utilization_synth.rpt -pb master_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 16 13:43:14 2022...

@@ -1,0 +1,19 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+D:/Desktop/Pantall7Segmentos/Pantall7Segmentos.srcs/sim_1/new/tb_seg.vhd,1655485742,vhdl,,,,tb_seg,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sim_1/new/Pruebas.vhd,1655659661,vhdl,,,,pruebas,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/imports/new/to_7seg.vhd,1655141512,vhdl,,,,to_7seg,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/General.vhd,1655140655,vhdl,,,,general,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/Mux8a1.vhd,1655144173,vhdl,,,,multiplexor,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/biestableD.vhd,1655143632,vhdl,,,,biestabled,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/biestableT.vhd,1655143910,vhdl,,,,biestablet,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/cifrado_descifrado.vhd,1655660920,vhdl,,,,cifrado_descifrado,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/contador.vhd,1655143706,vhdl,,,,counter,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/contador0a4.vhd,1655144168,vhdl,,,,contador0a4,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/contador0a4rep.vhd,1655144154,vhdl,,,,contador0a4rep,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/demultiplexor.vhd,1655143473,vhdl,,,,demultiplexor,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/demultiplexor5inps.vhd,1655144158,vhdl,,,,demultiplexor5inps,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/master.vhd,1655486232,vhdl,,,,master,,,,,,,,
+D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sources_1/new/reg4bit.vhd,1655143734,vhdl,,,,reg4bit,,,,,,,,

@@ -1,0 +1,145 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:48:09 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 1872
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Jun 17 19:44:23 CEST 2022
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	D:/Programas/Vivado/2021.2/tps/win64/jre11.0.11_9
+Java executable: 	D:/Programas/Vivado/2021.2/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	joaqu
+User home directory: C:/Users/joaqu
+User working directory: D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl
+User country: 	ES
+User language: 	es
+User locale: 	es_ES
+
+RDI_BASEROOT: D:/Programas/Vivado
+HDI_APPROOT: D:/Programas/Vivado/2021.2
+RDI_DATADIR: D:/Programas/Vivado/2021.2/data
+RDI_BINDIR: D:/Programas/Vivado/2021.2/bin
+
+Vivado preferences file: C:/Users/joaqu/AppData/Roaming/Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: C:/Users/joaqu/AppData/Roaming/Xilinx/Vivado/2021.2/
+Vivado layouts directory: C:/Users/joaqu/AppData/Roaming/Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	D:/Programas/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl/vivado.log
+Vivado journal file: 	D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl/vivado.jou
+Engine tmp dir: 	D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl/.Xil/Vivado-1872-DESKTOP-FEORL2P
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Programas/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: D:/Programas/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: D:/Programas/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: D:/Programas/Vivado/2021.2
+XILINX_VIVADO: D:/Programas/Vivado/2021.2
+XILINX_VIVADO_HLS: D:/Programas/Vivado/2021.2
+
+
+GUI allocated memory:	310 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,337 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: D:\Downloads\PHR\Entrega proyecto\Físico con todo comentado\GeneralConTecl\GeneralConTecl.xpr. Version: Vivado v2021.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project {D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl/GeneralConTecl.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,337 MB. GUI used memory: 54 MB. Current time: 6/17/22, 7:44:24 PM CEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 66 MB (+66850kb) [00:00:16]
+// [Engine Memory]: 1,337 MB (+1250175kb) [00:00:16]
+// [GUI Memory]: 112 MB (+44152kb) [00:00:18]
+// WARNING: HEventQueue.dispatchEvent() is taking  4711 ms.
+// Tcl Message: open_project {D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl/GeneralConTecl.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Downloads/PHR/Entrega proyecto/Intento Físico/GeneralConTecl' since last save. INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl/GeneralConTecl.gen/sources_1', nor could it be found using path 'D:/Downloads/PHR/Entrega proyecto/Intento Físico/GeneralConTecl/GeneralConTecl.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programas/Vivado/2021.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:11 . Memory (MB): peak = 1599.004 ; gain = 0.000 
+// Project name: GeneralConTecl; location: D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bA
+// [GUI Memory]: 120 MB (+2650kb) [00:00:26]
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+// PAPropertyPanels.initPanels (master.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, master(Behavioral) (master.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, master(Behavioral) (master.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 10 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+dismissDialog("Opening Editor"); // bA
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // al
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // al
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  2773 ms.
+// [GUI Memory]: 141 MB (+15887kb) [00:00:51]
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor]", 6, true); // B - Node
+expandTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor]", 6); // B
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor, Syntax Checking]", 8, false); // B
+selectComboBox(PAResourceQtoS.SettingsEditorSyntaxCheckingPage_SYNTAX_CHECKING, "VIVADO", 1); // e
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d

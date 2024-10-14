@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Jun 17 19:03:46 2022
+# Process ID: 7776
+# Current directory: D:/Downloads/PHR/Entrega proyecto/Simulación
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16260 D:\Downloads\PHR\Entrega proyecto\Simulación\Simulación.xpr
+# Log file: D:/Downloads/PHR/Entrega proyecto/Simulación/vivado.log
+# Journal file: D:/Downloads/PHR/Entrega proyecto/Simulación\vivado.jou
+# Running On: DESKTOP-FEORL2P, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8468 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.xpr}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse D:/Desktop/Pantall7Segmentos/Pantall7Segmentos.srcs/sim_1/new/tb_seg.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_seg [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_seg.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Pruebas [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sim_1/new/test_7segmentos.vhd} w ]
+add_files -fileset sim_1 {{D:/Downloads/PHR/Entrega proyecto/Simulación/Simulación.srcs/sim_1/new/test_7segmentos.vhd}}
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files D:/Desktop/Pantall7Segmentos/Pantall7Segmentos.srcs/sim_1/new/tb_seg.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/Desktop/Pantall7Segmentos/Pantall7Segmentos.srcs/sim_1/new/tb_seg.vhd
+launch_simulation
+source Pruebas.tcl
+close_sim

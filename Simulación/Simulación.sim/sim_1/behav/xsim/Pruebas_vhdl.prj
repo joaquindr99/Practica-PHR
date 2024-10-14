@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Simulación.srcs/sources_1/new/General.vhd" \
+"../../../../Simulación.srcs/sources_1/new/Mux8a1.vhd" \
+"../../../../Simulación.srcs/sources_1/new/biestableD.vhd" \
+"../../../../Simulación.srcs/sources_1/new/biestableT.vhd" \
+"../../../../Simulación.srcs/sources_1/new/cifrado_descifrado.vhd" \
+"../../../../Simulación.srcs/sources_1/new/contador.vhd" \
+"../../../../Simulación.srcs/sources_1/new/contador0a4.vhd" \
+"../../../../Simulación.srcs/sources_1/new/contador0a4rep.vhd" \
+"../../../../Simulación.srcs/sources_1/new/demultiplexor.vhd" \
+"../../../../Simulación.srcs/sources_1/new/demultiplexor5inps.vhd" \
+"../../../../Simulación.srcs/sources_1/new/master.vhd" \
+"../../../../Simulación.srcs/sources_1/new/reg4bit.vhd" \
+"../../../../Simulación.srcs/sim_1/new/Pruebas.vhd" \
+
+# Do not sort compile order
+nosort

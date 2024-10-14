@@ -1,0 +1,605 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Thu Jun 16 13:44:25 2022
+| Host         : DESKTOP-FEORL2P running 64-bit major release  (build 9200)
+| Command      : report_methodology -file master_methodology_drc_routed.rpt -pb master_methodology_drc_routed.pb -rpx master_methodology_drc_routed.rpx
+| Design       : master
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 113
++-----------+------------------+---------------------------------------------------------+------------+
+| Rule      | Severity         | Description                                             | Violations |
++-----------+------------------+---------------------------------------------------------+------------+
+| TIMING-14 | Critical Warning | LUT on the clock tree                                   | 10         |
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                             | 11         |
+| TIMING-15 | Warning          | Large hold violation on inter-clock path                | 2          |
+| TIMING-18 | Warning          | Missing input or output delay                           | 30         |
+| TIMING-20 | Warning          | Non-clocked latch                                       | 55         |
+| TIMING-50 | Warning          | Unrealistic path requirement between same-level latches | 5          |
++-----------+------------------+---------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-14#1 Critical Warning
+LUT on the clock tree  
+The LUT CIRCUITO/CONT2/q_reg[3]_i_1 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-14#2 Critical Warning
+LUT on the clock tree  
+The LUT CIRCUITO/CONT2/q_reg[3]_i_1__0 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-14#3 Critical Warning
+LUT on the clock tree  
+The LUT CIRCUITO/CONT2/q_reg[3]_i_1__1 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-14#4 Critical Warning
+LUT on the clock tree  
+The LUT CIRCUITO/CONT2/q_reg[3]_i_1__2 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-14#5 Critical Warning
+LUT on the clock tree  
+The LUT CIRCUITO/CONT2/q_reg[3]_i_2__6 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-14#6 Critical Warning
+LUT on the clock tree  
+The LUT CIRCUITO/REGout0/auxclk_reg_i_2__6 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-14#7 Critical Warning
+LUT on the clock tree  
+The LUT CIRCUITO/REGout1/auxclk_reg_i_2__7 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-14#8 Critical Warning
+LUT on the clock tree  
+The LUT CIRCUITO/REGout2/auxclk_reg_i_2__8 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-14#9 Critical Warning
+LUT on the clock tree  
+The LUT CIRCUITO/REGout3/auxclk_reg_i_2__9 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-14#10 Critical Warning
+LUT on the clock tree  
+The LUT CIRCUITO/REGout4/auxclk_reg_i_2__10 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin CIRCUITO/BIEST5/q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin CIRCUITO/BIEST6/q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin CIRCUITO/CONT0/pre_count_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin CIRCUITO/CONT0/pre_count_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin CIRCUITO/CONT0/pre_count_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin CIRCUITO/CONT1/pre_count_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin CIRCUITO/CONT1/pre_count_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin CIRCUITO/CONT1/pre_count_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin CIRCUITO/CONT2/pre_count_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin CIRCUITO/CONT2/pre_count_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin CIRCUITO/CONT2/pre_count_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-15#1 Warning
+Large hold violation on inter-clock path  
+There is a large inter-clock skew of 4.559 ns between clk (clocked by sys_clk_pin) and CIRCUITO/REGout4/auxclk_reg/D (clocked by sys_clk_pin) that results in large hold timing violation(s) of -1.341 ns. Fixing large hold violations during routing might impact setup slack and result in more difficult timing closure
+Related violations: <none>
+
+TIMING-15#2 Warning
+Large hold violation on inter-clock path  
+There is a large inter-clock skew of 4.863 ns between clk (clocked by sys_clk_pin) and CIRCUITO/REGout0/auxclk_reg/D (clocked by sys_clk_pin) that results in large hold timing violation(s) of -1.709 ns. Fixing large hold violations during routing might impact setup slack and result in more difficult timing closure
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on entradaFil[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on entradaFil[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on entradaFil[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on entradaFil[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on sw_act relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on sw_elec relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on sw_pulsa relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on sw_resetear relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on c[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on c[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on c[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on dec[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on dec[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on dec[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on dec[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on dec[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on dec[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on dec[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on dec[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on entradaCol[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on entradaCol[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on entradaCol[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on entradaCol[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on salidas[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on salidas[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An output delay is missing on salidas[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An output delay is missing on salidas[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An output delay is missing on salidas[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An output delay is missing on salidas[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An output delay is missing on salidas[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch CIRCUITO/CD/a_inv_reg[0] cannot be properly analyzed as its control pin CIRCUITO/CD/a_inv_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch CIRCUITO/CD/a_inv_reg[1] cannot be properly analyzed as its control pin CIRCUITO/CD/a_inv_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch CIRCUITO/CD/a_inv_reg[2] cannot be properly analyzed as its control pin CIRCUITO/CD/a_inv_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch CIRCUITO/CD/a_inv_reg[3] cannot be properly analyzed as its control pin CIRCUITO/CD/a_inv_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O1_reg[0] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O1_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O1_reg[1] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O1_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O1_reg[2] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O1_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O1_reg[3] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O1_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O2_reg[0] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O2_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O2_reg[1] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O2_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O2_reg[2] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O2_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O2_reg[3] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O2_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O3_reg[0] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O3_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O3_reg[1] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O3_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O3_reg[2] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O3_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O3_reg[3] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O3_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O4_reg[0] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O4_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O4_reg[1] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O4_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O4_reg[2] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O4_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch CIRCUITO/DEMUX2/O4_reg[3] cannot be properly analyzed as its control pin CIRCUITO/DEMUX2/O4_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGa/auxclk_reg cannot be properly analyzed as its control pin CIRCUITO/REGa/auxclk_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGa/q_reg[0] cannot be properly analyzed as its control pin CIRCUITO/REGa/q_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGa/q_reg[1] cannot be properly analyzed as its control pin CIRCUITO/REGa/q_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGa/q_reg[2] cannot be properly analyzed as its control pin CIRCUITO/REGa/q_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGa/q_reg[3] cannot be properly analyzed as its control pin CIRCUITO/REGa/q_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGb/auxclk_reg cannot be properly analyzed as its control pin CIRCUITO/REGb/auxclk_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGb/q_reg[0] cannot be properly analyzed as its control pin CIRCUITO/REGb/q_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGb/q_reg[1] cannot be properly analyzed as its control pin CIRCUITO/REGb/q_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGb/q_reg[2] cannot be properly analyzed as its control pin CIRCUITO/REGb/q_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGb/q_reg[3] cannot be properly analyzed as its control pin CIRCUITO/REGb/q_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin0/auxclk_reg cannot be properly analyzed as its control pin CIRCUITO/REGin0/auxclk_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin0/q_reg[0] cannot be properly analyzed as its control pin CIRCUITO/REGin0/q_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin0/q_reg[1] cannot be properly analyzed as its control pin CIRCUITO/REGin0/q_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin0/q_reg[2] cannot be properly analyzed as its control pin CIRCUITO/REGin0/q_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin0/q_reg[3] cannot be properly analyzed as its control pin CIRCUITO/REGin0/q_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin1/auxclk_reg cannot be properly analyzed as its control pin CIRCUITO/REGin1/auxclk_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin1/q_reg[0] cannot be properly analyzed as its control pin CIRCUITO/REGin1/q_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin1/q_reg[1] cannot be properly analyzed as its control pin CIRCUITO/REGin1/q_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin1/q_reg[2] cannot be properly analyzed as its control pin CIRCUITO/REGin1/q_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin1/q_reg[3] cannot be properly analyzed as its control pin CIRCUITO/REGin1/q_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin2/auxclk_reg cannot be properly analyzed as its control pin CIRCUITO/REGin2/auxclk_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin2/q_reg[0] cannot be properly analyzed as its control pin CIRCUITO/REGin2/q_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin2/q_reg[1] cannot be properly analyzed as its control pin CIRCUITO/REGin2/q_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin2/q_reg[2] cannot be properly analyzed as its control pin CIRCUITO/REGin2/q_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin2/q_reg[3] cannot be properly analyzed as its control pin CIRCUITO/REGin2/q_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin3/auxclk_reg cannot be properly analyzed as its control pin CIRCUITO/REGin3/auxclk_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin3/q_reg[0] cannot be properly analyzed as its control pin CIRCUITO/REGin3/q_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin3/q_reg[1] cannot be properly analyzed as its control pin CIRCUITO/REGin3/q_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin3/q_reg[2] cannot be properly analyzed as its control pin CIRCUITO/REGin3/q_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin3/q_reg[3] cannot be properly analyzed as its control pin CIRCUITO/REGin3/q_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin4/auxclk_reg cannot be properly analyzed as its control pin CIRCUITO/REGin4/auxclk_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin4/q_reg[0] cannot be properly analyzed as its control pin CIRCUITO/REGin4/q_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin4/q_reg[1] cannot be properly analyzed as its control pin CIRCUITO/REGin4/q_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin4/q_reg[2] cannot be properly analyzed as its control pin CIRCUITO/REGin4/q_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch CIRCUITO/REGin4/q_reg[3] cannot be properly analyzed as its control pin CIRCUITO/REGin4/q_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-50#1 Warning
+Unrealistic path requirement between same-level latches  
+There is a timing paths between the source pin CIRCUITO/REGout0/auxclk_reg/G and the destination pin CIRCUITO/REGout0/auxclk_reg/D. The two latches are positive level-sensitive with a 0ns path requirement. The 0ns path requirement is coming from the conservative latch analysis and could severely impact the runtime due to time borrowing calculation. It is not recommended to have such topology unless there is a multicycle path constraint to adjust the path requirement to a realistic value (at least half clock period).
+Related violations: <none>
+
+TIMING-50#2 Warning
+Unrealistic path requirement between same-level latches  
+There is a timing paths between the source pin CIRCUITO/REGout1/auxclk_reg/G and the destination pin CIRCUITO/REGout1/auxclk_reg/D. The two latches are positive level-sensitive with a 0ns path requirement. The 0ns path requirement is coming from the conservative latch analysis and could severely impact the runtime due to time borrowing calculation. It is not recommended to have such topology unless there is a multicycle path constraint to adjust the path requirement to a realistic value (at least half clock period).
+Related violations: <none>
+
+TIMING-50#3 Warning
+Unrealistic path requirement between same-level latches  
+There is a timing paths between the source pin CIRCUITO/REGout2/auxclk_reg/G and the destination pin CIRCUITO/REGout2/auxclk_reg/D. The two latches are positive level-sensitive with a 0ns path requirement. The 0ns path requirement is coming from the conservative latch analysis and could severely impact the runtime due to time borrowing calculation. It is not recommended to have such topology unless there is a multicycle path constraint to adjust the path requirement to a realistic value (at least half clock period).
+Related violations: <none>
+
+TIMING-50#4 Warning
+Unrealistic path requirement between same-level latches  
+There is a timing paths between the source pin CIRCUITO/REGout3/auxclk_reg/G and the destination pin CIRCUITO/REGout3/auxclk_reg/D. The two latches are positive level-sensitive with a 0ns path requirement. The 0ns path requirement is coming from the conservative latch analysis and could severely impact the runtime due to time borrowing calculation. It is not recommended to have such topology unless there is a multicycle path constraint to adjust the path requirement to a realistic value (at least half clock period).
+Related violations: <none>
+
+TIMING-50#5 Warning
+Unrealistic path requirement between same-level latches  
+There is a timing paths between the source pin CIRCUITO/REGout4/auxclk_reg/G and the destination pin CIRCUITO/REGout4/auxclk_reg/D. The two latches are positive level-sensitive with a 0ns path requirement. The 0ns path requirement is coming from the conservative latch analysis and could severely impact the runtime due to time borrowing calculation. It is not recommended to have such topology unless there is a multicycle path constraint to adjust the path requirement to a realistic value (at least half clock period).
+Related violations: <none>
+
+

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Jun 20 16:20:59 2022
+# Process ID: 18060
+# Current directory: D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19900 D:\Downloads\PHR\Entrega proyecto\Físico con todo comentado\GeneralConTecl\GeneralConTecl.xpr
+# Log file: D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl/vivado.log
+# Journal file: D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl\vivado.jou
+# Running On: DESKTOP-FEORL2P, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8468 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Downloads/PHR/Entrega proyecto/Físico con todo comentado/GeneralConTecl/GeneralConTecl.xpr}
+update_compile_order -fileset sources_1
